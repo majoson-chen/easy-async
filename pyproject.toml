@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "easy-async"
+version = "0.1.0"
+description = "Please forget you are using asyncio"
+authors = ["Majoson <majoson@qq.com>"]
+readme = "README.md"
+packages = [{ include = "easy_async" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["asyncio", "async", "easy", "easy-async"]
+repository = "https://github.com/majoson-chen/easy-async"
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
